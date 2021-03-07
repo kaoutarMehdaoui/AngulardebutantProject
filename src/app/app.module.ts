@@ -8,6 +8,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { RouterModule } from '@angular/router';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { MessagesComponent } from './messages/messages.component';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
+    DashboardComponent,
    
   ],
   imports: [
